@@ -15,7 +15,7 @@ public class CustomerController {
 	public String getNewMessage() {
 		return "this is new changes";
 	}
-     // Code changes made in guthub
+     // Code changes made in guthub added new method
 
 	@GetMapping("/getNewmessage")
 	public int addNumber(){

@@ -10,5 +10,10 @@ public class CustomerController {
 	public String getMessage() {		
 		return " welcome to Customer details page ";
 	}
+	
+	@GetMapping("/getNewMessage")
+	public String getNewMessage() {
+		return "this is new changes";
+	}
 
 }

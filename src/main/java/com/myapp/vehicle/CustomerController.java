@@ -15,5 +15,10 @@ public class CustomerController {
 	public String getNewMessage() {
 		return "this is new changes";
 	}
+     // Code changes made in guthub
 
+	@GetMapping("/getNewmessage")
+	public int addNumber(){
+	return 5+10;
+	}
 }
